@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+.head-box {
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+}
+.head-logo {
+	height: 70px;
+}
+nav {
+	float: right;
+}
+.nav-list{
+	float: right;
+}
+.list-item{
+	display: inline-block;
+	font-size: 16px;
+	color: #FAFAFA;
+	padding: 0 30px;
+	line-height: 70px;
+	height: 70px;
+	float: left;
+	width: 120px;
+}
+.list-item>a {
+	color:#FAFAFA;
+}
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center
+}
+.main-visual-content {
+	margin: 0 auto;
+	padding-top: 200px;
+}
+.main-visual-title {
+	font-size: 64px;
+	color: #FAFAFA;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.main-visual-text {
+	font-size: 20px;
+	color: #FAFAFA;
+	text-align: center;
+}
+#portfolio {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+.portfolio-box {
+	width: 920px;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+.portfolio-text-box {
+	width: 100%;
+}
+.portfolio-text-box-title {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+	margin: 0 auto;
+	text-align: center;
+}
+.underbar{
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+.portfolio-text-box-text {
+	margin: 0 auto;
+	padding: 30px 0;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+.portfolio-image-box {
+	height: 510px;
+}
+.portfolio-image {
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.portfolio-image:nth-child(2){
+	background-image: url(img/websuku.png);
+	}
+.portfolio-image:nth-child(3){
+	background-image: url(img/write.jpg);
+	margin: 0 0 10px 0;
+	}
+.portfolio-image:nth-child(4){
+	background-image: url(img/webcamp.png);
+	}
+.portfolio-image:nth-child(5){
+	background-image: url(img/talk.jpg);
+	}
+.portfolio-image:last-child{
+	background-image: url(img/webcamp-mother.png);
+	margin: 0;
+	}
+	}
+.portfolio-image:nth-last-child(-n+3){
+	margin: 0 10px 0 0;
+	}
+#feature {
+	width: 980px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+.feature-title-box {
+	width: 100%;
+}
+.feature-title-box-title {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+	text-align: center;
+	margin: 0 auto;
+}
+.feature-title-box-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.feature-strengths {
+	width: 980px;
+	margin: 0 auto;
+}
+.feature-strength {
+	width: 320px;
+	margin-right: 10px;
+	float: left;
+}
+.feature-strength:last-child {
+	margin: 0;
+}
+.fas {
+	font-size: 60px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.feature-strength-title {
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+	text-align: center;
+}
