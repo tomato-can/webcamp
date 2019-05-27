@@ -24,6 +24,9 @@ header {
 .head-logo {
 	height: 70px;
 }
+.humburger {
+	float: left;
+}
 nav {
 	float: right;
 }
@@ -306,7 +309,7 @@ footer {
 @media screen and (max-width: 767px) {
 
 header {
-	width: 90%;
+	width: 100%;
 	height: 50px;
 	background-color: #EC715F;
 	margin: 0 auto;
@@ -346,7 +349,7 @@ nav {
 	margin-bottom: 9px;
 }
 .main-visual {
-	width: 90%;
+	width: 100%;
 	height: 650px;
 	background-image: url(img/code.png);
 	margin: 0 auto;
@@ -361,7 +364,7 @@ nav {
 	font-size: 18px;
 }
 #portfolio {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 .portfolio-box {
@@ -389,7 +392,7 @@ nav {
 	display: none;
 	}
 #feature {
-	width: 90%;
+	width: 100%;
 }
 .feature-title-box {
 	width: 90%;
@@ -405,7 +408,7 @@ nav {
 }
 .
 #profile {
-	width: 90%;
+	width: 100%;
 }
 .profile-box {
 	width: 90%;
@@ -435,7 +438,7 @@ nav {
 	padding: 0;
 }
 #contact {
-	width: 90%;
+	width: 100%;
 }
 .contact-box {
 	width: 90%;
